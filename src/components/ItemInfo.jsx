@@ -75,7 +75,7 @@ background-color:  ${(props) => props.backgroundColor ? props.backgroundColor : 
 width: ${(props) => props.width && props.width};
 padding: ${(props) => props.padding ? props.padding : '0.3%'};
 color: ${(props) => props.color ? props.color : 'gray'};
-font-size: ${(props) => props.fontSize ? props.fontSize : '13px'};
+font-size: ${(props) => props.fontSize ? props.fontSize : '11px'};
 align-items: center;
 justify-content: center;
 column-gap: 3%;
@@ -212,7 +212,7 @@ const ItemInfo = () => {
                 <ContainerKeywords>
                     <Row columnGap='1.5%'>
                         <Text desc weight='600' fontSize='14px'>Keywords:</Text>
-                        <Teg weight='600' backgroundColor='#212122' color=' #FFFFFF' width='16%'> Whispering breeze</Teg>
+                        <Teg weight='600' backgroundColor='#212122' color=' #FFFFFF' width='18%'> Whispering breeze</Teg>
                         <Teg weight='600' backgroundColor='#212122' color=' #FFFFFF' width='16%'> Wandering soul</Teg>
                         <Teg weight='600' backgroundColor='#212122' color=' #FFFFFF' width='16%'> Crimson dawn</Teg>
                         <Teg weight='600' backgroundColor='#212122' color=' #FFFFFF' width='16%'> Echoes of silence</Teg>
@@ -221,8 +221,8 @@ const ItemInfo = () => {
             </ContainerInfo >
             <ContainerRate>
                 <Rate>
-                    <Text weight='600' fontSize='15px' desc>🙋‍♂️ Videos</Text>
-                    <Text weight='700' fontSize='40px'>1.8M</Text>
+                    <Text weight='600' fontSize='13px' desc>🙋‍♂️ Videos</Text>
+                    <Text weight='700' fontSize='35px'>1.8M</Text>
                     <Text weight='700' fontSize='13px' color='#D1FD0A'>
                         <svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.666992 1.6866V10.3174C0.666992 10.9749 1.39283 11.3733 1.94783 11.0208L8.72866 6.70577C9.24366 6.37827 9.24366 5.62743 8.72866 5.29993L1.94783 0.983266C1.39283 0.629933 0.666992 1.0291 0.666992 1.6866Z" fill="#D1FD0A" />
@@ -230,8 +230,8 @@ const ItemInfo = () => {
                         WatchVideos</Text>
                 </Rate>
                 <Rate primary>
-                    <Text weight='600' fontSize='15px' color='#AAFFDB'>Daily Growth</Text>
-                    <Text weight='700' fontSize='40px'>+100k</Text>
+                    <Text weight='600' fontSize='12px' color='#AAFFDB'>Daily Growth</Text>
+                    <Text weight='700' fontSize='35px'>+100k</Text>
                 </Rate>
             </ContainerRate>
         </Container >
